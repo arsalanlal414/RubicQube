@@ -46,7 +46,7 @@ function App() {
     setError(null);
     try {
       const definition = cubeState.join('');
-      const response = await fetch('http://localhost:8000/solve', {
+      const response = await fetch('https://rubicqube.onrender.com/solve', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
