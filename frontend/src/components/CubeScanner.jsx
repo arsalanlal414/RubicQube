@@ -27,7 +27,7 @@ const CubeScanner = ({ onScanComplete, onCancel }) => {
     setError(null);
 
     try {
-      const response = await fetch('http://localhost:8000/scan-face', {
+      const response = await fetch('https://rubicqube.onrender.com/scan-face', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
