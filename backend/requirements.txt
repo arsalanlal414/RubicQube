@@ -1,7 +1,29 @@
-fastapi
-uvicorn
-kociemba
-pydantic
-opencv-python
-numpy
-python-multipart
+# Web Framework
+fastapi==0.124.0
+uvicorn==0.38.0
+starlette==0.50.0
+
+# Rubik's Cube Solver
+kociemba==1.2.1
+
+# Data Validation
+pydantic==2.12.5
+pydantic-core==2.41.5
+annotated-types==0.7.0
+typing-extensions==4.15.0
+
+# Computer Vision
+opencv-python==4.12.0.88
+numpy==2.3.5
+
+# File Upload Support
+python-multipart==0.0.20
+
+# Dependencies
+anyio==4.12.0
+h11==0.16.0
+click==8.3.1
+colorama==0.4.6
+idna==3.11
+cffi==2.0.0
+pycparser==2.23
