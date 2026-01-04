@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+kociemba
+pydantic
+opencv-python
+numpy
+python-multipart
